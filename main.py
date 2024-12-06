@@ -18,7 +18,7 @@ key_assignments = [
 
 # Setup the main window
 root = tk.Tk()
-root.title("Macro Grid")
+root.title("StreamLights")
 
 # Create the indicator grid and add indicators to the window
 indicators = IndicatorGrid(root, button_labels, key_assignments)
