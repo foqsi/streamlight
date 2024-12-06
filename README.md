@@ -1,7 +1,7 @@
 # StreamLights - Streaming Indicator Tool
 Simple little program that shows me what I've disabled while streaming.
 
-![image](https://github.com/user-attachments/assets/9f01db3d-7b20-40b8-961a-a460afe219d2)
+![image](https://github.com/user-attachments/assets/a97f690a-c57a-40b3-8062-da6234ba3b29)
 
 ## Features
 - Displays indicators for streaming-related toggles (e.g., microphone, camera, desktop audio).
