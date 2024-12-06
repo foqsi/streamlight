@@ -15,16 +15,16 @@ If you want to use this program, you can do so as-is. Just remember:
 ## Setup Instructions
 Follow these steps to set up StreamLights on your system:
 
-# 1. Install Python
+### 1. Install Python
 Make sure you have Python installed. You can download it from [python.com](http://www.python.org).
 
-# 2. Install PyInstaller
+### 2. Install PyInstaller
 To create a standalone executable, you need to install PyInstaller. Run the following command:
 ```bash
 pip install pyinstaller
 ```
 
-# 3. Build the Executable
+### 3. Build the Executable
 Navigate to the directory containing the <code>main.py</code> script and run:
 ```bash
 pyinstaller --onefile --windowed --name StreamLights --icon=icon.ico main.py
@@ -34,7 +34,7 @@ pyinstaller --onefile --windowed --name StreamLights --icon=icon.ico main.py
 - <code>--name StreamLights</code>: Sets the name of the generated executable.
 - <code>--icon=icon.ico</code>: Sets a custom icon for the executable.
 
-# 4. Running the application
+### 4. Running the application
 After running PyInstaller, you will find the generated executable in the <code>dist</code> folder. You can now use this executable to run the program.
 
 ## Customization
