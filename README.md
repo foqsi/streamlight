@@ -42,13 +42,3 @@ After running PyInstaller, you will find the generated executable in the <code>d
 You can easily customize the following aspects of the program:
 - **Labels**: Modify the text that appears on the buttons.
 - **Key Assignments**: Change the keys that toggle the buttons by editing the <code>key_assignments</code> in <code>main.py</code>.
-
-
-How to set up yourself
-
-Install python
-
-Install pyinstaller
-
-navigate to the directory and run the following command
-pyinstaller --onefile --windowed --name StreamLights --icon=icon.ico --clean main.py
