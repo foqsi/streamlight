@@ -25,7 +25,13 @@ To create a standalone executable, you need to install PyInstaller. Run the foll
 pip install pyinstaller
 ```
 
-### 3. Build the Executable
+### 3. Install pynput
+The program uses a module called pynput and it is required to build it. Run the following command:
+```bash
+pip install pynput
+```
+
+### 4. Build the Executable
 Navigate to the directory containing the <code>main.py</code> script and run:
 ```bash
 pyinstaller --onefile --windowed --name StreamLights --icon=icon.ico main.py
@@ -35,7 +41,7 @@ pyinstaller --onefile --windowed --name StreamLights --icon=icon.ico main.py
 - <code>--name StreamLights</code>: Sets the name of the generated executable.
 - <code>--icon=icon.ico</code>: Sets a custom icon for the executable.
 
-### 4. Running the application
+### 5. Running the application
 After running PyInstaller, you will find the generated executable in the <code>dist</code> folder. You can now use this executable to run the program.
 
 ## Customization
